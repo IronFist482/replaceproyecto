@@ -1,6 +1,7 @@
 import { useState } from 'react'
-import '../css/index.css'
-import Button from './components/Button.jsx'
+import './css/index.css'
+import ButtonLogin from './components/ButtonLogin.jsx'
+import ButtonSignin from './components/ButtonSignin.jsx'
 
 function Index() {
   const [count, setCount] = useState(0)
@@ -16,7 +17,8 @@ function Index() {
           <div className="logo-texto"></div>
         </div>
         <div className="login-signin">
-          
+          <ButtonLogin></ButtonLogin>
+          <ButtonSignin></ButtonSignin>
         </div>
       </div>
     </>
