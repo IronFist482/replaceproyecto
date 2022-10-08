@@ -1,0 +1,187 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    height: 98.8vh;
+    width: 98vw;
+    background-color: #16191c;
+  }
+  
+  /*Contenedor principal del index*/
+  .container {
+    width: 95%;
+    height: 95%;
+  }
+  
+  /*Circulo morado abajo derecha*/
+  .circulo-morado00{
+    position: fixed;
+    width: 1320px;
+    height: 1072px;
+    left: 800px;
+    top: 300px;
+  
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(121, 41, 159, 0.5) 0%,
+      rgba(121, 41, 159, 0.5) 0%,
+      rgba(114, 39, 150, 0) 100%
+    );
+  }
+  
+  /*Circulo verde arriba izquierda*/
+  .circulo-verde00{
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    left: -700px;
+    top: -800px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(23, 137, 96, 0.4) 0.01%,
+      rgba(23, 137, 96, 0.4) 0.02%,
+      rgba(23, 137, 96, 0) 100%
+    );
+  }
+  /*Circulo verde abajo enmedio*/
+  .circulo-verde01{
+    position: absolute;
+    width: 1200px;
+    height: 1200px;
+    left: 300px;
+    bottom: -200px;
+    background: radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(255, 255, 255, 0.4) 0%,
+      rgba(23, 137, 96, 0.4) 0.01%,
+      rgba(23, 137, 96, 0.4) 0.02%,
+      rgba(23, 137, 96, 0) 100%
+    );
+  }
+  .logo-texto {
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    left: 170px;
+    top: 20px;
+  
+    background: url(../img/logo-texto.png);
+  }
+  .logo-figura {
+    position: absolute;
+    max-width: 120px;
+    max-height: 120px;
+    width: 80px;
+    height: 80px;
+    left: 60px;
+    top: 10px;
+    background: url(../img/logo-figura\ .png);
+  }
+  .logo-completo {
+    max-width: 200px;
+    max-height: 120px;
+  }
+  .login-signin {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+  
+    position: absolute;
+    width: 410px;
+    height: 60px;
+    right: 30px;
+    top: 20px;
+  }
+  .loginBoton {
+    cursor: pointer;
+    max-width: 230px;
+    max-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  
+    background: #0d0e0d;
+    border-radius: 50px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .signinBoton {
+    cursor: pointer;
+    max-width: 180px;
+    max-height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+  
+    background: #1c9a6d;
+    border-radius: 50px;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .textoBoton {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+  
+    color: #c0c0c0;
+  
+    /* Inside auto layout */
+  
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+  .containerLogin {
+    position: absolute;
+    margin: auto;
+    width: 1000px;
+    height: 500px;
+    background-color: #ffffff00;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+  .formLogin {
+    position: absolute;
+    width: 524px;
+    height: 350px;
+    margin: 2rem;
+    top: 70px;
+    left: 20px;
+    background: #34393f;
+    box-shadow: 0px 4.36096px 4.36096px rgba(0, 0, 0, 0.25);
+    border-radius: 43.854px;
+  }
+  .texto {
+    position: absolute;
+    width: 415px;
+    height: 74px;
+    left: 135px;
+    background-color: #ffffff00;
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 80px;
+    color: #d6d6d6;
+  }
